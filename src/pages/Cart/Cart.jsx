@@ -94,7 +94,9 @@ function Cart() {
                                 </div>
 
                                 <div className="text-center">
-                                    <Button>Proceed to Checkout</Button>
+                                    <Link to="/checkout">
+                                        <Button>Proceed to Checkout</Button>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
